@@ -79,7 +79,7 @@ class Game {
   play() {
     this.handleElements();
     this.handleResetButton();
-
+    this.handlePlayerControls();
 
     Player.getPlayersInfo();
 
